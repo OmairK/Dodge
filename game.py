@@ -21,7 +21,7 @@ red = (255,0,0)
 pygame.init()
 gameDisplay = pygame.display.set_mode((WIDTH,HEIGHT))
 pygame.mixer.init()
-pygame.display.set_caption('Omair Name')
+pygame.display.set_caption('DODGE')
 clock = pygame.time.Clock()
 
 pygame.display.update()
@@ -32,11 +32,12 @@ def character(x,y):
     gameDisplay.blit(charImg,(x,y))
 
 
+all_sprites = pygame.sprite.Group()
 
-
-
-	
+# Game Loop
 def gameLoop():
+	# keep loop running at right speed
+	
 	x = (WIDTH * 0.45)
 	y = (HEIGHT * 0.8)
 
@@ -76,8 +77,8 @@ def gameLoop():
 		gameDisplay.fill(white)
 		character(x,y)
 		pygame.display.update()
+		#Keep loop running at right speed
 		clock.tick(FPS)
-
 
 
 
