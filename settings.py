@@ -4,6 +4,10 @@ WIDTH = 400
 HEIGHT = 600
 FPS = 60
 
+# Player properties
+PLAYER_ACC = 0.5
+PLAYER_FRICTION = -0.12
+
 # Colours
 BLACK = (0,0,0) 
 WHITE =(255, 255, 255)
