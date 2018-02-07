@@ -3,12 +3,12 @@
 WIDTH = 400
 HEIGHT = 600
 FPS = 60
-
+FONT_NAME = 'arial'
 # Player properties
 PLAYER_ACC = 0.5
 PLAYER_FRICTION = -0.1
 PLAYER_GRAV = 0.5
-
+PLAYER_JUMP = 20
 
 # Starting platforms 
 PLATFORM_LIST = [(0, HEIGHT - 40, WIDTH, 40),
@@ -36,4 +36,4 @@ GREEN = (0,128,0)
 PURPLE = (128,0,128)
 TEAL = 	(0,128,128)
 NAVY = (0,0,128)
-
+BGCOLOR = PURPLE
