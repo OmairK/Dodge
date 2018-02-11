@@ -1,9 +1,9 @@
 # Dodge
 Game made using pygames
 
-### Pre Requisites:
-- Python 3
-- Pygame
+## Pre Requisites
+- Python 3.5.2
+- Pygame 1.9.3
 
 ### How to run:
-- Run the following command in your terminal $ python3 game.py
+python3 Dodge-main.py
